@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF8F5;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+article{
+    background-image: url(hidroginastica.png);
+    padding: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #294B08 1em;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 4em;
+    text-decoration: none;
+   
+    
+}
+li ul nav{
+    color: #11110A;
+    font-weight: bold;
+    text-decoration: none;
+
+   
+}
+
+ 
+a:hover{
+    color: #294B08;
+}
+h1{
+    text-align: center;
+    color: #294B08;
+    /* font-size: 4em; */
+    font-family: 'Sansation', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 101px;
+    letter-spacing: -0.18px;
+    }
+h2{
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    /* identical to box height */
+
+    letter-spacing: -0.18px;
+
+    color: #011811;
+    }
+h3{
+    width: 398px;
+    left: 269px;
+}    
+p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #011811;
+}
+    
+.button{ 
+    background-color:#6AA13B;
+    border: 0;
+    color: #eeebeb;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-decoration: none;
+}
