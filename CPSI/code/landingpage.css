@@ -201,3 +201,57 @@ div{
     margin-left: 95em;
     margin-top: 10em;
 }
+
+footer{
+    background-color: #294B08;
+    font-family: 'Poppins';
+    width: 100%;
+}
+.container{
+    max-width: 1600px;
+    max-height: 50em;
+    padding: 0 6%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-cool{
+    flex-direction: column;
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.footer-cool h4{
+    font-size: 1em;
+    color: #FCF8F5;
+    margin-bottom: 1em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.footer-cool ul{
+    flex-direction:column;
+    list-style: none;
+}
+.footer-cool ul li{
+    text-align: left;
+    margin:0;
+    width: 4em;
+}
+.footer-cool ul li a{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #FCF8F5;
+    text-decoration: none;
+    display: block;
+}
+
+
+.row-footer .footer-cool:nth-child(5) li a img{
+    background-color: aqua ;
+    height: 3em;
+}
