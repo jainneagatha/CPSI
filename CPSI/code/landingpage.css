@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 7em;
+    margin-top: 1em;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -24,17 +25,21 @@ article{
     padding: 10em;
     background-repeat: no-repeat;
     background-size: cover;
-    border: #294B08 1em;
+    border-top: 0.2em solid #6AA13B ;
+    border-bottom: 0.2em solid #6AA13B ;
+    margin-top: 1em;
 }
 .button{ 
     background-color:#6AA13B;
     border: 0;
     color: #eeebeb;
-    padding: 2em;
+    padding: 1em;
     border-radius: 0.5em;
-    font-family: 'Roboto',serif;
+    font-size: 1.5em;
+    font-family: 'Poppins', serif;
     
-    width: 10em;
+    text-align: center;
+    width: 8em;
     display: block;
     margin: 0 auto;
     margin-top: 3em;
@@ -49,7 +54,6 @@ ul{
 li ul nav{
     color: #11110A;
     font-weight: bold;
-    text-decoration: none;
 }
 a:hover{
     color: #294B08;
@@ -57,15 +61,20 @@ a:hover{
 h1{
     text-align: center;
     color: #294B08;
-    /* font-size: 4em; */
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
     line-height: 101px;
     letter-spacing: -0.18px;
     }
-
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #163713;
+    margin-top: 1em;
+    font-size: 1.1em;
+    text-align: center;
+}
     
 
 /*MODALIDADE*/
@@ -73,7 +82,7 @@ h3{
     text-align: left;
     margin-top: 4em;
     margin-left: 3.5em;
-    font-family: 'Roboto',serif;
+    font-family: 'Poppins';
     font-size: 2em;
 } 
 h2{
@@ -88,18 +97,13 @@ h2{
     letter-spacing: -0.18px; */   
 
     color: #011811;
-    }
-p{
-    text-align: center;
-    font-family: 'Poppins', serif;
-    color: #011811;
-    margin-left: 3em;
 }
+
 section p{
     text-align: left;
     margin-top: 1em;
-    margin-left: 7em;
-    font-family: 'Roboto',serif;
+    margin-left: 6.4em;
+    font-family: 'Poppins', sans-serif;
     color: #011811;
 }
 div{
@@ -107,6 +111,7 @@ div{
     flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 10em;
+    margin-left: -3em;
 
     align-items: center;
     text-decoration: none;
@@ -116,6 +121,20 @@ div{
     min-width: 6em;
     min-height: 6em;
     
+}
+div a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3em;
+    color: #11110A;
+}
+.modalidade a:hover{
+    color: #294B08;
+    
+}
+.setalado{
+    margin-left: -3em;
 }
 
 
@@ -141,19 +160,23 @@ div{
     font-family: 'Poppins', serif;
     margin-right: 8em;
 }
+.mapa p:nth-child(4){
+    font-weight: bold;
+}
 
 
 /*EQUIPE*/
 .equipe{
-    margin-bottom: 20em;
+    margin-bottom: 15em;
 }
 .equipe ul li:nth-child(1){
     position: absolute;
     left: 38em;
-    top: 329em;
+    top: 340em;
 }
 .equipe ul li:nth-child(1) h4{
     position: absolute;
+    font-family: 'Poppins';
     font-size: 1.6em;
     width: 12em;
     left: 5em;
@@ -161,29 +184,32 @@ div{
 }
 .equipe ul li:nth-child(1) p{
     position: absolute;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     width: 12em;
-    left: 1.5em;
+    left: 1.7em;
     top: 2em;
 }
 .equipe ul li:nth-child(2){
     position: absolute;
     left: 70em;
-    top: 335em;
+    top: 345em;
 }
 .equipe ul li:nth-child(2) h4{
     position: absolute;
+    font-family: 'Poppins';
     font-size: 1.6em;
     width: 12em;
-    right: 0.1em;
+    right: 1em;
     top: 0.8em;
 }
 .equipe ul li:nth-child(2) p{
     position: absolute;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     width: 12em;
-    right: 4.2em ;
-    top: 1.7em;
+    right: 6.3em;
+    top: 1.8em;
 }
 
 .equipe h3{
@@ -202,56 +228,13 @@ div{
     margin-top: 10em;
 }
 
+
+/*FOOTER*/
 footer{
     background-color: #294B08;
     font-family: 'Poppins';
     width: 100%;
 }
-.container{
-    max-width: 1600px;
-    max-height: 50em;
-    padding: 0 6%;
+footer img{
     margin: auto;
-}
-.row-footer{
-    display: flex;
-    flex-wrap: nowrap;
-}
-.footer-cool{
-    flex-direction: column;
-    width: 25%;
-    padding: 0 15px;
-}
-
-
-.footer-cool h4{
-    font-size: 1em;
-    color: #FCF8F5;
-    margin-bottom: 1em;
-    position: relative;
-    text-transform: uppercase;
-}
-
-
-.footer-cool ul{
-    flex-direction:column;
-    list-style: none;
-}
-.footer-cool ul li{
-    text-align: left;
-    margin:0;
-    width: 4em;
-}
-.footer-cool ul li a{
-    font-size: 1em;
-    text-transform: capitalize;
-    color: #FCF8F5;
-    text-decoration: none;
-    display: block;
-}
-
-
-.row-footer .footer-cool:nth-child(5) li a img{
-    background-color: aqua ;
-    height: 3em;
 }
